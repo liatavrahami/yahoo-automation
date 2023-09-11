@@ -30,7 +30,7 @@ public class MailPage {
 		Thread.sleep(2000);
 		Thread.sleep(2000);
 		
-		//Choosing mails from inside the mail box
+		//Choosing mails from inside the mail box.
 		driver.findElement(By.xpath("//a/div/div/div/button/span")).click();
 	    driver.findElement(By.xpath("//li[3]/a/div/div/div/button/span")).click();
 	    {
